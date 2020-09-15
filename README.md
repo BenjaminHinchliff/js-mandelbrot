@@ -4,7 +4,7 @@ a dead simple mandelbrot implementation to demonstrate implementing it with math
 
 ## Running it
 
-hosted via github pages (click on environments on the right)
+hosted via github pages [here](https://benjaminhinchliff.github.io/js-mandelbrot/)
 
 ## Build
 
