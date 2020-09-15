@@ -4,11 +4,19 @@
   "description": "a really basic way to render the mandelbrot set with math.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "author": "Benjamin Hinchliff <benjamin.hinchliff@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "mathjs": "^7.2.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
